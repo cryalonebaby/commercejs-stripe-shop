@@ -1,0 +1,11 @@
+.root {
+  max-width: 100%;
+}
+.cardActions {
+  display: flex;
+  justify-content: flex-end;
+}
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+}

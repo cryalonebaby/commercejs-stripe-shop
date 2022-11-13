@@ -1,0 +1,26 @@
+.toolbar {
+  height: 88px;
+}
+
+.layout {
+  margin-top: 5%;
+  width: auto;
+  margin: 0 12px;
+  @media screen and (min-width: 630px) {
+    width: 600px;
+    margin: 0 auto; 
+  }
+}
+
+.paper {
+  margin: 18px 0;
+  padding: 12px;
+  @media screen and (max-width: 630px) {
+    width: 100%;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 631px) {
+    margin: 36px 0;
+    padding: 18px;
+  }
+}
